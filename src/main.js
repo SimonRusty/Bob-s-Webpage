@@ -8,21 +8,25 @@ document.addEventListener("DOMContentLoaded", () => {
 // Define frog images
 let frogImages = {
   common_frog:
-    "https://media.istockphoto.com/id/978411170/photo/common-frog-on-white-background.jpg?s=612x612&w=0&k=20&c=TKSta74GjhTIAnOl6LZpQAJchxi1jozp-XSfGaK6ZA4=",
+    "https://www.ardeaprints.com/p/172/common-frog-lily-pad-pond-1313487.jpg.webp",
+  bufo_alvarius:
+    "https://as1.ftcdn.net/v2/jpg/03/32/93/04/1000_F_332930418_zu4iKiFN5GCZeeX8BQMoNQAe2oHnEKH4.jpg", // added missing comma
   red_eyed_tree_frog:
     "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfh4O3ag1Cu0xIVlHwBP1G57-5DFIBkI6axqEg3zhk4nLe-6_nhlx6w83hoSMyGT4a9JxArEjYyZ81ToFNUJ7QYYjMdurcmYXuZyqRgw",
   poison_dart_frog:
     "https://i.natgeofe.com/k/a27c5d1f-9f3e-49f9-ae6d-a2b349c283c7/poison-dart-frog-orange-blue.jpg?wp=1&w=1436&h=808",
   bullfrog:
-    "https://cdn.britannica.com/45/179145-050-51295E7A/African-bullfrog-South-Africa.jpg?w=300",
+    "https://media.istockphoto.com/id/147308785/photo/american-bullfrog.jpg?s=612x612&w=0&k=20&c=vjoqVUiSOiEfF4UirXi6RTYounse-TkQTaUjZswA_Gs=",
   golden_toad:
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bufo_periglenes2.jpg/440px-Bufo_periglenes2.jpg",
+    "https://i.natgeofe.com/n/e628f257-4ccb-4de7-ab72-2316addfe124/24395.jpg",
 };
 
 // Define frog biographies
 let frogBiographies = {
   common_frog:
     "The Common Frog, a.k.a. Rana temporaria, is nature’s ultimate amphibious ninja! Sporting a slimy green-brown bodysuit that doubles as camouflage, this froggy master of disguise leaps through the grass like a bouncy ball with legs. Its superpower? Turning insects into gourmet meals with a flick of its lightning-fast tongue! When it’s not moonlighting as a bug-slaying superhero, the Common Frog can be found lounging in ponds, croaking sweet serenades to its froggy friends, and enjoying a spa-like existence in muddy puddles. Truly, it’s the James Bond of the amphibian world—cool, calm, and just a little bit slimy!",
+  bufo_alvarius:
+    "The toad widely referred to as Bufo alvarius has a more accurate scientific name which is Incilius alvarius. I. alvarius is a species of amphibian belonging to the Bufonidae or “True Toad” family.", // added missing comma
   red_eyed_tree_frog:
     "The Red-Eyed Frog, Agalychnis callidryas, is basically the neon party animal of the rainforest. With its bright green body, electric blue racing stripes, and eyes that look like they've been stolen from a sci-fi movie villain, this frog screams, 'Look at me!'—and then promptly vanishes into the leaves when it jumps. Its giant red eyes aren't just for show, though; they're its way of giving potential predators a heart attack when they get too close. When it's not pulling off epic scare tactics, the Red-Eyed Frog spends its nights climbing trees with its sticky, suction-cup fingers and perfecting its 'extreme lounging' pose on leaves. It's the ultimate tropical tree-hugger—complete with psychedelic vibes!",
   poison_dart_frog:

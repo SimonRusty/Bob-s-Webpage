@@ -38,46 +38,56 @@
     </style>
   </head>
   <body>
-    <h1>This is the Heading to Bob's webpage</h1>
-    <h2>Hello World, it's Bob's webpage</h2>
-    <p>Websites to learn HTML:</p>
-    <ul>
-      <li>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"
-          >mdn webdocs</a
-        >
-      </li>
-    </ul>
+    <div class="container">
+      <h1>Bob's webpage on Frogs and Toads</h1>
+      <h2>Hello World, it's Bob's webpage on amphibians</h2>
+      <p>Websites on Frogs:</p>
+      <ul>
+        <li>
+          <a
+            href="https://joshsfrogs.com/?srsltid=AfmBOooOXHtT84RsH4iAm4XV1XVI5lwxJa1EAfhvisuqluHXTzzSmdDW"
+            >Josh's Frogs - Buy your own Frog!</a
+          >
+        </li>
+        <li>
+          <a href="https://www.reddit.com/r/frog/">r/frog</a>
+        </li>
+      </ul>
 
-    <!-- Updated dropdown container -->
-    <div class="dropdown-container">
-      <h3>Select a Frog Species</h3>
-      <label for="frog-species">Choose a frog species:</label>
-      <section class="display">
-        <select id="frog-species" name="frog-species">
-          <option value="common_frog">Common Frog (Rana temporaria)</option>
-          <option value="red_eyed_tree_frog">
-            Red-eyed Tree Frog (Agalychnis callidryas)
-          </option>
-          <option value="poison_dart_frog">
-            Poison Dart Frog (Dendrobatidae)
-          </option>
-          <option value="bullfrog">
-            American Bullfrog (Lithobates catesbeianus)
-          </option>
-          <option value="golden_toad">Golden Toad (Incilius periglenes)</option>
-        </select>
+      <!-- Updated dropdown container -->
+      <div class="dropdown-container">
+        <h3>Select a Frog Species</h3>
+        <label for="frog-species">Choose a frog species:</label>
+        <section class="display">
+          <select id="frog-species" name="frog-species">
+            <option value="common_frog">Common Frog (Rana temporaria)</option>
+            <option value="bufo_alvarius">
+              Bufo Alvarius (Incilius alvarius)
+            </option>
+            <option value="red_eyed_tree_frog">
+              Red-eyed Tree Frog (Agalychnis callidryas)
+            </option>
+            <option value="poison_dart_frog">
+              Poison Dart Frog (Dendrobatidae)
+            </option>
+            <option value="bullfrog">
+              American Bullfrog (Lithobates catesbeianus)
+            </option>
+            <option value="golden_toad">
+              Golden Toad (Incilius periglenes)
+            </option>
+          </select>
 
-        <!-- This is where the frog image will be displayed -->
-        <div class="frog-info">
-          <div class="frog-display"></div>
-          <div class="frog-bio">
-            <p>Select a frog to see its biography here!</p>
+          <!-- This is where the frog image will be displayed -->
+          <div class="frog-info">
+            <div class="frog-display"></div>
+            <div class="frog-bio">
+              <p>Select a frog to see its biography here!</p>
+            </div>
           </div>
-        </div>
-      </section>
-      <input type="submit" value="Submit" />
+        </section>
+        <input type="submit" value="Submit" />
+      </div>
     </div>
 
     <!-- Link to your JavaScript file -->

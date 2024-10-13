@@ -1,3 +1,12 @@
+:root {
+  /* Define custom properties (CSS variables) */
+  --frog-margin: 10px; /* Default margin around the image */
+  --frog-border-color: #500596; /* Default border color (green) */
+  --frog-border-width: 8px; /* Border thickness */
+  --frog-border-radius: 8px; /* Rounded corners */
+  --frog-padding: 0px; /* Padding inside the border */
+}
+
 /* Existing styles */
 .display {
   display: flex;
@@ -30,12 +39,30 @@ body {
   border-radius: 5px; /* Slightly rounded corners */
 }
 
+/* New container styles */
+.container {
+  max-width: 800px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding for spacing */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Optional: add a background for better visibility */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
 /* Add this section to resize the images */
 .frog-display img {
   max-width: 500px; /* Adjust the width */
   max-height: 500px; /* Adjust the height */
   width: auto; /* Maintain aspect ratio */
   height: auto; /* Maintain aspect ratio */
+  margin: var(--frog-margin); /* Use variable for margin */
+  border: var(--frog-border-width) solid var(--frog-border-color); /* Use variables for border width and color */
+  border-radius: var(--frog-border-radius); /* Use variable for border radius */
+  padding: var(--frog-padding); /* Use variable for padding */
 }
 
 /* New CSS for frog information */
